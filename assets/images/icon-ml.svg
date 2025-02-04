@@ -1,0 +1,21 @@
+<svg width="40" height="40" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mlGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="10" fill="transparent" stroke="url(#mlGradient)" stroke-width="4"/>
+  
+  <!-- Neuron Nodes -->
+  <circle cx="14" cy="32" r="6" stroke="url(#mlGradient)" stroke-width="4" fill="transparent"/>
+  <circle cx="50" cy="32" r="6" stroke="url(#mlGradient)" stroke-width="4" fill="transparent"/>
+  <circle cx="32" cy="16" r="6" stroke="url(#mlGradient)" stroke-width="4" fill="transparent"/>
+  
+  <!-- Connecting Lines -->
+  <path d="M20 32 L32 16 L44 32" stroke="url(#mlGradient)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M26 40H38L48 50H16L26 40Z" stroke="url(#mlGradient)" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Neural Network Layer -->
+  <rect x="20" y="16" width="24" height="6" stroke="url(#mlGradient)" stroke-width="4" fill="transparent"/>
+</svg>
